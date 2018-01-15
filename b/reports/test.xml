@@ -1,0 +1,12 @@
+<testsuites name="jest tests">
+  <testsuite name="Optional" errors="0" failures="0" skipped="0" timestamp="2018-01-15T18:54:04" time="0.653" tests="1">
+    <testcase classname="Optional should be absent when it&apos;s absent" name="Optional should be absent when it&apos;s absent" time="0.005">
+    </testcase>
+  </testsuite>
+  <testsuite name="ContentDetailsFetch" errors="0" failures="0" skipped="0" timestamp="2018-01-15T18:54:04" time="0.891" tests="2">
+    <testcase classname="ContentDetailsFetch should call the dao once" name="ContentDetailsFetch should call the dao once" time="0.006">
+    </testcase>
+    <testcase classname="ContentDetailsFetch should match the content id" name="ContentDetailsFetch should match the content id" time="0">
+    </testcase>
+  </testsuite>
+</testsuites>
