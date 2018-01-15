@@ -1,0 +1,19 @@
+{
+  "name": "js-style",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikalai-silivonik/js-style.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mikalai-silivonik/js-style/issues"
+  },
+  "homepage": "https://github.com/mikalai-silivonik/js-style#readme"
+}
