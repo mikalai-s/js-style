@@ -1,1 +1,1 @@
-<?xml version="1.0" encoding="utf-8"?><testsuites package="tslint"></testsuites>
+<?xml version="1.0" encoding="utf-8"?><testsuites package="tslint"><testsuite name="/Users/m0s01ax/Git/hoggle/githoggle/src/mymovies/account-benefits.service.ts"><testcase name="Line 13, Column 1: no-consecutive-blank-lines"><failure type="error">Consecutive blank lines are forbidden</failure></testcase></testsuite></testsuites>

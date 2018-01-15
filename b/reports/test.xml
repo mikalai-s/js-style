@@ -1,12 +1,22 @@
 <testsuites name="jest tests">
-  <testsuite name="Optional" errors="0" failures="0" skipped="0" timestamp="2018-01-15T18:54:04" time="0.653" tests="1">
-    <testcase classname="Optional should be absent when it&apos;s absent" name="Optional should be absent when it&apos;s absent" time="0.005">
+  <testsuite name="ContentDetailsFetch" errors="0" failures="1" skipped="0" timestamp="2018-01-15T20:15:54" time="0.869" tests="2">
+    <testcase classname="ContentDetailsFetch should call the dao once" name="ContentDetailsFetch should call the dao once" time="0.004">
+    </testcase>
+    <testcase classname="ContentDetailsFetch should match the content id" name="ContentDetailsFetch should match the content id" time="0.006">
+      <failure>Error: expect(jest.fn()).toHaveBeenCalledTimes(20)
+
+Expected mock function to have been called 20 times, but it was called one time.
+    at Object.&lt;anonymous&gt; (/Users/m0s01ax/Git/hoggle/githoggle/src/movies/activities/content-details-activity.unit.test.ts:76:44)
+    at resolve (/Users/m0s01ax/Git/hoggle/githoggle/node_modules/jest-jasmine2/build/queue_runner.js:51:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/m0s01ax/Git/hoggle/githoggle/node_modules/jest-jasmine2/build/queue_runner.js:40:274)
+    at promise.then (/Users/m0s01ax/Git/hoggle/githoggle/node_modules/jest-jasmine2/build/queue_runner.js:83:39)
+    at &lt;anonymous&gt;
+    at process._tickCallback (internal/process/next_tick.js:160:7)</failure>
     </testcase>
   </testsuite>
-  <testsuite name="ContentDetailsFetch" errors="0" failures="0" skipped="0" timestamp="2018-01-15T18:54:04" time="0.891" tests="2">
-    <testcase classname="ContentDetailsFetch should call the dao once" name="ContentDetailsFetch should call the dao once" time="0.006">
-    </testcase>
-    <testcase classname="ContentDetailsFetch should match the content id" name="ContentDetailsFetch should match the content id" time="0">
+  <testsuite name="Optional" errors="0" failures="0" skipped="0" timestamp="2018-01-15T20:15:55" time="0.017" tests="1">
+    <testcase classname="Optional should be absent when it&apos;s absent" name="Optional should be absent when it&apos;s absent" time="0.001">
     </testcase>
   </testsuite>
 </testsuites>
